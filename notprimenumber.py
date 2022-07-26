@@ -2,7 +2,7 @@ n=int(input("enter a number"))
 for j in range(n,2,-1):
     for i in range(2,j):
         if(j%i==0):
-            print(" not number ",j)
+            print(j,end=" ")
             break
         
    
